@@ -1,24 +1,36 @@
 <template>
   <div class="footer_guide">
-    <span class="guide_item " :class="{on: '/msite' === $route.path}" @click="changeBg('/msite')">
+    <span class="guide_item "
+      :class="{on: '/msite' === $route.path}"
+      @click="changeBg('/msite')"
+    >
       <span class="item_icon">
         <i class="iconfont iconshouye"></i>
       </span>
       <span>外卖</span>
     </span>
-    <span class="guide_item" :class="{on: '/search' === $route.path}" @click="changeBg('/search')">
+    <span class="guide_item"
+      :class="{on: '/search' === $route.path}"
+      @click="changeBg('/search')"
+    >
       <span class="item_icon">
         <i class="iconfont iconsousuo"></i>
       </span>
       <span>搜索</span>
     </span>
-    <span class="guide_item" :class="{on: '/order' === $route.path}" @click="changeBg('/order')">
+    <span class="guide_item"
+      :class="{on: '/order' === $route.path}"
+      @click="changeBg('/order')"
+    >
       <span class="item_icon">
         <i class="iconfont icondingdanpingjia"></i>
       </span>
       <span>订单</span>
     </span>
-    <span class="guide_item" :class="{on: '/profile' === $route.path}" @click="changeBg('/profile')">
+    <span class="guide_item"
+      :class="{on: '/profile' === $route.path}"
+      @click="changeBg('/profile')"
+    >
       <span class="item_icon">
         <i class="iconfont iconfensi"></i>
       </span>
